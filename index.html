@@ -17,12 +17,13 @@
             font-family: 'Georgia', serif; /* Open serif font */
         }
         .content {
-            background-color: #f0f0e8; /* Off-white rounded background for the top blocks */
+            background-color: #e2f0e1;
             text-align: center;
             padding: 60px;
+            width: 30%; /* Full width */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transform: translateY(-50%); /* Moves content slightly above center */
+            transform: translateY(-40%); /* Moves content slightly above center */
         }
         h1 {
             font-size: 24px; /* Size of h1 */
@@ -31,6 +32,10 @@
         h2 {
             font-size: 48px; /* Size of h2 */
             font-weight: bold;
+            margin-bottom: 1.5em;
+        }
+        h3 {
+            font-size: 18px;
         }
         p {
             font-size: 14px;
@@ -45,12 +50,16 @@
         @media (max-width: 768px) {
             .content {
                 padding: 20px; /* Reduced padding on smaller devices */
+                width: 80%; /* Full width */
             }
             h1 {
                 font-size: 18px; /* Smaller font size for h1 on mobile */
             }
             h2 {
                 font-size: 32px; /* Smaller font size for h2 on mobile */
+            }
+            h3 {
+                font-size: 14px;
             }
             p {
                 font-size: 12px; /* Smaller font size for p on mobile */
@@ -62,8 +71,14 @@
 <body>
     <div class="content">
         <h1>Has Onglet* been born yet?</h1>
-        <h2>No</h2>
+        <h2>Yes</h2>
+        <h3>Onglet was born at 06:09 BST on Friday the 7th of June, 2024. We haven't weighed him yet, but both Mum and baby are well.
+        He will get a proper human name in due course.</h3>
     </div>
-    <p>*Onglet is a cut of beef steak prized for its flavor and tenderness. This cut is taken from the plate, which is the upper belly of the animal. In the past it was among several cuts of beef sometimes known as "butcher's steak", because butchers would often keep it for themselves rather than offer it for sale. This is because the general populace believed this to be a crude cut of meat, although it is actually one of the most flavoursome." - <a href="https://en.wikipedia.org/wiki/Hanger_steak">Wikipedia</a></p>
+    <p>*Onglet is a cut of beef steak prized for its flavor and tenderness. This cut is taken from the plate,
+      which is the upper belly of the animal. In the past it was among several cuts of beef sometimes known as
+      "butcher's steak", because butchers would often keep it for themselves rather than offer it for sale.
+      This is because the general populace believed this to be a crude cut of meat, although it is actually one of the
+      most flavoursome." - <a href="https://en.wikipedia.org/wiki/Hanger_steak">Wikipedia</a></p>
 </body>
 </html>
